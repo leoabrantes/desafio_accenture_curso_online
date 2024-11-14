@@ -7,6 +7,7 @@ import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.accenture.desafio_accenture_curso_online.dto.AlunoDto;
@@ -17,6 +18,7 @@ import com.accenture.desafio_accenture_curso_online.repositorios.AlunoRepositori
 
 import jakarta.persistence.EntityNotFoundException;
 
+@Service
 public class AlunoServico {
 	
 	@Autowired
