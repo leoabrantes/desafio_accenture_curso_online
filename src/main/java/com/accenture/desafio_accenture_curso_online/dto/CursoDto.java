@@ -60,22 +60,22 @@ public class CursoDto implements Serializable  {
 	}
 
 
-	public String getEmail() {
+	public String getDescricao() {
 		return descricao;
 	}
 
 
-	public void setEmail(String email) {
+	public void setDescricao(String email) {
 		this.descricao = email;
 	}
 
 
-	public LocalDate getDataCadastro() {
+	public LocalDate getDataCriacao() {
 		return dataCriacao;
 	}
 
 
-	public void setDataCadastro(LocalDate dataCadastro) {
+	public void setDataCriacao(LocalDate dataCadastro) {
 		this.dataCriacao = dataCadastro;
 	}
 
